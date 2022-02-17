@@ -18,15 +18,21 @@ hi renad i fine and you
   public static void main(String[] args)
     {
  
-      
-   Scanner scan = new Scanner(System.in);
+ Scanner scan = new Scanner(System.in);
+        int L = scan.nextInt();
+         int R = scan.nextInt();
+          int A = scan.nextInt();      
+
         int L = scan.nextInt();
          int R = scan.nextInt();
           int A = scan.nextInt();
            int B = scan.nextInt();
             int K = scan.nextInt();
             
-          
+          }   
+           }
+    }
+    // Function to return the XOR of elements
            for(int i=K;i<R;i++){
             if(i>=L && i<=R){
                 int y=(findXOR(K, i));
